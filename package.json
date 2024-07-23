@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass public/styles/style.scss public/styles/style.css && npx tsc && node index"
+    "build": "sass public/styles/style.scss public/styles/style.css && npx tsc",
+    "start": " node index"
   },
   "author": "",
   "license": "ISC",
